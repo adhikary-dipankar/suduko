@@ -1,13 +1,5 @@
 # 🧩 Sudoku Pro — Mobile Web Edition
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/gist/your-username/your-repo/logo.svg" width="120" height="120" alt="Sudoku Pro Logo">
-  <br>
-  <b>Sleek. Lightweight. Thumb-Friendly.</b>
-</p>
-
----
-
 A high-performance Sudoku game built for the modern mobile web. Designed with **ergonomics** in mind, Sudoku Pro features a dual-thumb keypad layout that makes solving puzzles on the go faster and more intuitive than ever.
 
 ## 🚀 Features
