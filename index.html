@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Sudoku Pro</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#6366f1">
     <style>
         :root {
             --primary: #6366f1;
@@ -244,6 +246,7 @@
     </div>
 
     <script>
+        
         const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
         function playTone(freq, type, duration, vol=0.05) {
             if(audioCtx.state === 'suspended') audioCtx.resume();
@@ -379,6 +382,10 @@
         function closeModal(id) { document.getElementById(id).style.display = 'none'; }
 
         window.onload = init;
+
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('sw.js');
+        }
     </script>
 </body>
 </html>
