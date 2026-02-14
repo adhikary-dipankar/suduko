@@ -1,3 +1,26 @@
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100" height="100" rx="15" fill="#6366f1" />
+  
+  <line x1="33" y1="10" x2="33" y2="90" stroke="white" stroke-width="2" opacity="0.3"/>
+  <line x1="66" y1="10" x2="66" y2="90" stroke="white" stroke-width="2" opacity="0.3"/>
+  <line x1="10" y1="33" x2="90" y2="33" stroke="white" stroke-width="2" opacity="0.3"/>
+  <line x1="10" y1="66" x2="90" y2="66" stroke="white" stroke-width="2" opacity="0.3"/>
+
+  <text x="18" y="25" fill="white" font-family="sans-serif" font-weight="bold" font-size="16">
+    5
+    <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite" />
+  </text>
+  <text x="50" y="58" fill="white" font-family="sans-serif" font-weight="bold" font-size="16" text-anchor="middle">
+    9
+    <animate attributeName="opacity" values="0;1;0" dur="2s" begin="0.5s" repeatCount="indefinite" />
+  </text>
+  <text x="75" y="85" fill="white" font-family="sans-serif" font-weight="bold" font-size="16">
+    2
+    <animate attributeName="opacity" values="0;1;0" dur="2s" begin="1s" repeatCount="indefinite" />
+  </text>
+</svg>
+
+
 # 🧩 Sudoku Pro - Mobile Web Edition
 
 A sleek, lightweight, and high-performance Sudoku game optimized specifically for mobile browsers. Featuring a dual-thumb navigation system, instant feedback, and local record tracking.
